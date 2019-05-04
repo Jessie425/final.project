@@ -1,0 +1,197 @@
+/* Add a black background color to the top navigation bar */
+
+/*Navbar*/
+
+.navbar {
+    opacity: 0.7;
+    background-color: white;
+}
+
+.navbar img {
+    margin-left: 5px;
+    position: absolute;
+}
+
+.navbar input {
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #8c8c8c;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.navbar navbar-brand {
+    float: left;
+
+}
+
+.navbar li {
+    font-family: 'Cinzel', serif;
+    color: black !important;
+    font-size: 23px;
+    margin-left: 5px;
+    /*font-weight: bold;*/
+}
+
+.navbar a:hover {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    padding-right: 100px;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    color: #000 !important;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.nav-link {
+    font-family: 'Cinzel', serif;
+    color: black !important;
+}
+
+/*Recipes*/
+
+.recipes {
+    text-align: center;
+}
+
+.recipes h2 {
+    margin-top: 30px;
+    font-size: 65px;
+    font-family: 'Cinzel', serif;
+}
+
+.recipes h4 {
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+}
+
+.recipes p {
+    font-size: 20px;
+}
+
+.recipes input {
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.recipes button {
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.recipes button:hover {
+    color: white;
+    background-color: #66966f;
+}
+
+.recipes name {
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+}
+
+.recipes h3 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipes h6 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*About Us*/
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 30px;
+    font-size: 65px;
+    font-family: 'Cinzel', serif;
+}
+
+.about h4 {
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about img:hover {
+    opacity: 0.6;
+    border-color: lightgreen;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: green;
+    border: 2px;
+}
+
+.footer {
+    padding: 30px;
+    color: #fff;
+}
+
+.footer.social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    color: #000;
+}
+
+.footer .btn {
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+    border-radius: 5px;
+}
+
+.footer h4 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.footer i {
+    padding: 10px;
+    color: white;
+}
+
+/*@media(max-width:768px) {*/
+
+/*    .services {*/
+
+/*        padding: 30px;*/
+
+/*    }*/
+
+/*}*/
